@@ -1,0 +1,32 @@
+<%- include("partials/header"); %>
+
+
+<!-- <h1>
+	This Page is where you input a new bllog
+	
+</h1> -->
+<div class="ui main text container segment">
+	<div class="ui huge header">
+		New Blog
+	</div>
+	<form class="ui form" action="/blogs" method="POST">
+		<div class="field">
+			<label>Title</label>
+			<input name="title" placeholder="Title Of the Blog" type="text" >
+		</div>
+		<div class="field">
+			<label>Image</label>
+			<input name="image" placeholder="Paste in the Image URL" type="text" >
+		</div>
+		<div class="field">
+			<label>Body</label>
+			<textarea name="body" placeholder="Blog Content Goes Here..."></textarea>
+		</div>
+
+		
+		
+		
+		<input class="ui inverted blue button" type="submit">
+	</form>
+</div>
+<%- include("partials/footer"); %>

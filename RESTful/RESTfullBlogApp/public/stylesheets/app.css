@@ -1,0 +1,11 @@
+i{
+	font-size: 2em;
+} 
+.content{
+	padding-left: 14px;
+}
+
+#delete
+{
+	display: inline;
+}
